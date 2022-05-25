@@ -1,0 +1,32 @@
+p {
+  font-family: Lato;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+app-card {
+  box-sizing: border-box;
+  border: solid 1px black;
+  width: 250px;
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+.red {
+  border: solid 3px red;
+}
+
+.blue {
+  border: solid 3px blue;
+}
+
+.green {
+  border: solid 3px green;
+}
+
+.black {
+  border: solid 3px black;
+}

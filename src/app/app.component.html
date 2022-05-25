@@ -1,0 +1,27 @@
+<h1 [ngStyle]="{ color: title }">This is the title</h1>
+<section>
+  <app-card
+    [ngClass]="{ red: title === 'red' }"
+    [cardNum]="1"
+    [color]="'red'"
+    (selectColor)="setColor($event)"
+  ></app-card>
+  <app-card
+    [ngClass]="{ blue: title === 'blue' }"
+    [cardNum]="2"
+    [color]="'blue'"
+    (selectColor)="setColor($event)"
+  ></app-card>
+  <app-card
+    [ngClass]="{ green: title === 'green' }"
+    [cardNum]="3"
+    [color]="'green'"
+    (selectColor)="setColor($event)"
+  ></app-card>
+  <app-card
+    [ngClass]="{ black: title === 'black' }"
+    [cardNum]="4"
+    [color]="'black'"
+    (selectColor)="setColor($event)"
+  ></app-card>
+</section>
